@@ -35,7 +35,7 @@ class MainHooks implements UserToolLinksEditHook {
 		if ( $userId && $showLink && $canEditRights ) {
 			$items[] = $this->linkRenderer->makeKnownLink(
 				SpecialPage::getTitleFor( 'Userrights', $userText ),
-				wfMessage( 'userrightslink' )->escaped(),
+				wfMessage( 'userrightslink' )->text(),
 				[ 'class' => 'mw-usertoollinks-userrights' ]
 			);
 		}
