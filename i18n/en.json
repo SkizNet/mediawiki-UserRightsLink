@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ryan Schmidt"
+		]
+	},
+	"userrightslink-extensionname": "UserRightsLink",
+	"userrightslink-desc": "Display a link to [[Special:UserRights]] in user listings for privileged users.",
+	"userrightslink": "rights"
+}

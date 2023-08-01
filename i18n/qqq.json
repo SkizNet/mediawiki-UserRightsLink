@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ryan Schmidt"
+		]
+	},
+	"userrightslink-extensionname": "{{name}}",
+	"userrightslink-desc": "{{desc|name=UserRightsLink|url=https://mwusers.org}}",
+	"userrightslink": "Link text leading to [[Special:UserRights]], displayed in the user tool links"
+}

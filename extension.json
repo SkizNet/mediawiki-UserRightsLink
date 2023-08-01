@@ -1,0 +1,35 @@
+{
+	"name": "UserRightsLink",
+	"namemsg": "userrightslink-extensionname",
+	"version": "1.0.0",
+	"author": [
+		"Ryan Schmidt"
+	],
+	"url": "https://mwusers.org",
+	"descriptionmsg": "userrightslink-desc",
+	"type": "other",
+	"license-name": "GPL-3.0-or-later",
+	"Hooks": {
+		"UserToolLinksEdit": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\UserRightsLink\\MainHooks",
+			"services": [
+				"LinkRenderer"
+			]
+		}
+	},
+	"MessagesDirs": {
+		"UserRightsLink": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\UserRightsLink\\": "src/"
+	},
+	"requires": {
+		"MediaWiki": ">= 1.39.0"
+	},
+	"manifest_version": 2
+}
